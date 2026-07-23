@@ -1,7 +1,29 @@
 aid: agilemd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agilemd.png
 name: Agilemd
-description: Agilemd is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AgileMD is a clinical decision support company that embeds real-time
+  predictive analytics and evidence-based clinical pathways directly into
+  hospital electronic health record (EHR) workflows such as Epic and Cerner.
+  Its FDA-cleared eCART Clinical Deterioration Suite continuously scores
+  patient risk from nearly 100 real-time variables — labs, vital signs, and
+  nursing assessments — to help care teams recognize deteriorating patients
+  earlier, while its Clinical Pathways product standardizes evidence-based
+  order sets, documentation, and protocols across care settings. AgileMD is
+  used across 400+ hospitals by more than 150,000 clinical users and has
+  processed millions of patient encounters. The company is backed by
+  Y Combinator, MATTER, and Rock Health.
 url: https://raw.githubusercontent.com/api-evangelist/agilemd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +36,47 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- Clinical Decision Support
+- Predictive Analytics
+- EHR Integration
+- Clinical Pathways
+- Patient Safety
+- Machine Learning
+- Medical Device
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/agilemd-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/agilemd-domain-security.yml
+- type: Website
+  url: https://www.agilemd.com/
+- type: Support
+  url: https://support.agilemd.com/
+- type: StatusPage
+  url: https://agilemd.statuspage.io/
+- type: Blog
+  url: https://agilemd.com/news
+- type: Login
+  url: https://agilemd.com/signin
+- type: PrivacyPolicy
+  url: https://www.agilemd.com/about/privacy-policy
+- type: TermsOfService
+  url: https://www.agilemd.com/about/terms-of-service
+- type: GitHubOrganization
+  url: https://github.com/agilemd
+- type: Security
+  url: https://www.agilemd.com/security
+- type: LLMsTxt
+  url: llms/agilemd-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
